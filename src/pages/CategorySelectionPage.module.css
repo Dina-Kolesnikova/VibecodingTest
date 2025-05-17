@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.categoryList {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.categoryButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 4px; /* More margin for vertical layout */
+  cursor: pointer;
+  border-radius: 8px;
+  width: 200px; /* Fixed width for consistency */
+}
+
+.categoryButton:hover {
+  background-color: #45a049;
+}
+
+.backButton {
+  background-color: #6c757d; /* Subdued grey */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.backButton:hover {
+  background-color: #5a6268; /* Darker grey on hover */
+} 

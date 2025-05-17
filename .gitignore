@@ -131,4 +131,10 @@ dist
 /dist
 
 # sometimes Vite places its cache in node_modules, but sometimes it does it in the root
-.vite 
+.vite
+
+# Playwright reports
+playwright-report/
+
+# Test results
+test-results/

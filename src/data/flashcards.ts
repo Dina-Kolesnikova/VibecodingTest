@@ -40,6 +40,35 @@ export const flashcards: Flashcard[] = [
       type: 'fill-in-the-blank',
     },
   },
+  {
+    id: 10,
+    category: 'animals',
+    spanish: 'la jirafa',
+    english: 'the giraffe',
+    quiz: {
+      type: 'multiple-choice',
+      options: ['the zebra', 'the giraffe', 'the hippo', 'the rhino'],
+    },
+  },
+  {
+    id: 11,
+    category: 'animals',
+    spanish: 'el león',
+    english: 'the lion',
+    quiz: {
+      type: 'fill-in-the-blank',
+    },
+  },
+  {
+    id: 12,
+    category: 'animals',
+    spanish: 'el elefante',
+    english: 'the elephant',
+    quiz: {
+      type: 'multiple-choice',
+      options: ['the elephant', 'the mouse', 'the squirrel', 'the bear'],
+    },
+  },
   // Food
   {
     id: 4,
